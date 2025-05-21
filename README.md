@@ -2,7 +2,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=flat&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/shailysharma873/)
 [![Email](https://img.shields.io/badge/Email-EA4335?style=flat&logo=gmail&logoColor=white)](mailto:shailysharmawork@gmail.com)
-[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://portfolio.shaily.dev)
+[![Portfolio](https://img.shields.io/badge/Portfolio-000000?style=flat&logo=vercel&logoColor=white)](https://shaily24.github.io/)
 
 Engineer who builds data pipelines, full-stack applications, and ML systems. Currently open to opportunities.
 
@@ -86,7 +86,7 @@ Engineer who builds data pipelines, full-stack applications, and ML systems. Cur
 
 📧 shailysharmawork@gmail.com  
 💼 [linkedin.com/in/shailysharma873](https://www.linkedin.com/in/shailysharma873/)  
-🌐 [portfolio.shaily.dev](https://portfolio.shaily.dev)  
+🌐 [shaily24.github.io](https://shaily24.github.io/)  
 📍 Jersey City, NJ
 
 ---
