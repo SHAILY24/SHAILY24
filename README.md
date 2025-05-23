@@ -78,9 +78,9 @@ Engineer who builds data pipelines, full-stack applications, and ML systems. Cur
 
 ## Education
 
-**MS Data Science** - NJIT (2024-2025) - GPA: 3.8/4.0  
-**MBA** - Symbiosis International (2020-2022) - Business Analytics & Finance  
-**B.Tech IT** - MAIT Delhi (2015-2018) - First Class with Distinction
+**MS Data Science** - NJIT - GPA: 3.8/4.0  
+**MBA** - Symbiosis International - Business Analytics & Finance  
+**B.Tech IT** - MAIT Delhi - First Class with Distinction
 
 ## Contact
 
