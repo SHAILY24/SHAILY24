@@ -15,8 +15,6 @@
 
 ---
 
-<img align="right" alt="Coding" width="400" src="https://raw.githubusercontent.com/devSouvik/devSouvik/master/gif3.gif">
-
 ### 🚀 Quick Facts
 
 - 🎯 Prevented **$3 billion** in losses at Credit Suisse
@@ -26,8 +24,6 @@
 - ⚡ Achieved **6000x** performance improvement (20min → 200ms)
 - 🔧 Integrated **15+ enterprise systems** with 99.9% uptime
 - 📊 Processing **100M+ data points** daily
-
-<br clear="right"/>
 
 ---
 
@@ -46,18 +42,6 @@
 ---
 
 ## 💼 Experience Journey
-
-```mermaid
-graph LR
-    A[Credit Suisse<br/>2018-2023] -->|5.5 years| B[Jersey City Court<br/>2024-2025]
-    B -->|7 months| C[Fairway Vision<br/>Jan-Jun 2025]
-    C -->|6 months| D[PureHD<br/>May 2025-Present]
-    
-    style A fill:#ff6b6b,stroke:#333,stroke-width:2px
-    style B fill:#4ecdc4,stroke:#333,stroke-width:2px
-    style C fill:#45b7d1,stroke:#333,stroke-width:2px
-    style D fill:#96ceb4,stroke:#333,stroke-width:2px
-```
 
 ### 🏦 **Credit Suisse** (5.5 years) - Investment Banking Technology
 - 🐛 Caught climate risk bug preventing $3B loss
@@ -165,51 +149,6 @@ graph LR
 
 ---
 
-## 🎯 Current Focus
-
-<div align="center">
-  
-```python
-class ShailySharma:
-    def __init__(self):
-        self.current_role = "Data Engineer @ PureHD"
-        self.education = ["MS Data Science - NJIT", "MBA - Symbiosis", "B.Tech IT - MAIT"]
-        self.location = "Jersey City, NJ"
-        self.seeking = ["Data Engineering", "Full-Stack Development", "Machine Learning"]
-        
-    def skills(self):
-        return {
-            "languages": ["Python", "JavaScript", "TypeScript", "Java", "C++", "SQL"],
-            "frameworks": ["React", "FastAPI", "Flask", "Angular", "Node.js"],
-            "databases": ["PostgreSQL", "MongoDB", "Redis", "Oracle"],
-            "ml_tools": ["TensorFlow", "PyTorch", "Scikit-learn", "OpenCV"],
-            "cloud": ["AWS", "Azure", "GCP", "Docker", "Kubernetes"]
-        }
-    
-    def achievements(self):
-        return "Prevented $3B loss | Processed $10B+ | Saved 72 hours daily"
-```
-
-</div>
-
----
-
-## 📈 Contribution Graph
-
-<div align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=SHAILY24&theme=tokyo-night&hide_border=true" />
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  <img src="https://github-profile-trophy.vercel.app/?username=SHAILY24&theme=tokyonight&no-frame=true&no-bg=false&margin-w=4&row=1" />
-</div>
-
----
-
 ## 🎓 Education
 
 <div align="center">
@@ -236,8 +175,3 @@ I'm actively seeking opportunities where I can leverage my experience in **data 
 
 </div>
 
----
-
-<div align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&height=100&section=footer&text=Thanks%20for%20visiting!&fontSize=20&fontColor=ffffff" />
-</div>
