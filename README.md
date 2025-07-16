@@ -20,7 +20,6 @@
 - 🎯 Prevented **$3 billion** in losses at Credit Suisse
 - 💼 Currently engineering data solutions at **PureHD**
 - 🎓 MS in Data Science from **NJIT** (GPA: 3.8/4.0)
-- 🌟 Required **2 people** to replace me when I left Credit Suisse
 - ⚡ Achieved **6000x** performance improvement (20min → 200ms)
 - 🔧 Integrated **15+ enterprise systems** with 99.9% uptime
 - 📊 Processing **100M+ data points** daily
@@ -171,10 +170,7 @@ I'm actively seeking opportunities where I can leverage my experience in **data 
 
 <a href="mailto:shailysharmawork@gmail.com"><img src="https://img.shields.io/badge/Email_Me-EA4335?style=for-the-badge&logo=gmail&logoColor=white" /></a>
 <a href="https://linkedin.com/in/shailysharma873"><img src="https://img.shields.io/badge/Connect_on_LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a>
-<a href="https://shaily24.github.io/"><img src="https://img.shields.io/badge/View_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+<a href="https://shaily24.github.io/"><img src="https://img.shields.io/badge/View_Plain_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
+<a href="https://portfolio.shaily.dev/"><img src="https://img.shields.io/badge/View_Main_Portfolio-000000?style=for-the-badge&logo=vercel&logoColor=white" /></a>
 
 </div>
-
-<!--
-**SHAILY24/SHAILY24** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
--->
