@@ -1,85 +1,77 @@
-# Shaily Sharma
+<!-- you read the source, so you are technical. the good ones always check. up up down down. -->
 
-Python and React developer / data engineer based in Jersey City, NJ.
+<div align="center">
 
-I build automation, web scrapers, API integrations, payment flows, and data
-pipelines. Most of my work is public and runnable, so it can be evaluated
-rather than just described: a Dockerized credit-risk API, an e-commerce store
-with a real Stripe checkout, a multi-model news-sentiment pipeline, and more.
-I value tight scope, plain communication, and turning a usable
-proof-of-concept around fast. Top Rated on Upwork.
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/banner.svg?v=1">
+  <img alt="Shaily Sharma. Python data engineer. Anti-bot scraping into clean, matched, automated data." src="./assets/banner-light.svg?v=1" width="100%">
+</picture>
 
-## Selected work
+</div>
 
-Live demos first. Each links to its running site and the source it is built from.
+I turn data that is messy, blocked, or scattered into clean, matched, automated datasets and small apps. Most of it is public and running. The links below open the real thing, not screenshots.
 
-- **Credit Risk System** ([crs.shaily.dev](https://crs.shaily.dev) ·
-  [source](https://github.com/SHAILY24/credit-risk-system)). Full-stack ML
-  risk API: FastAPI + React 18 + PostgreSQL + Redis, Docker Compose, a
-  scikit-learn model behind a JWT-auth API.
-- **Shelf Bookstore** ([shelf.shaily.dev](https://shelf.shaily.dev) ·
-  [source](https://github.com/SHAILY24/shelf-bookstore)). E-commerce with a
-  real Stripe checkout: React + TypeScript + FastAPI, webhook signature
-  verification, JWT sessions, bcrypt hashing.
-- **News Sentiment Intelligence** ([news.shaily.dev](https://news.shaily.dev) ·
-  [source](https://github.com/SHAILY24/news-sentiment-intelligence)). React +
-  Flask pipeline running FinBERT / VADER / TextBlob sentiment and Prophet
-  forecasting, Redis-cached.
-- **Interactive Banking Analytics** ([ibad.shaily.dev](https://ibad.shaily.dev) ·
-  [source](https://github.com/SHAILY24/interactive-banking-analytics-dashboard)).
-  Flask + D3.js dashboard with a natural-language query layer and a
-  SHAP-explained model ensemble (RF 77.5% / XGBoost 78.5% / NN 76.5%), SMOTE
-  for class imbalance.
-- **Hotel Reviews Analysis**
-  ([hotel-reviews-analysis.shaily.dev](https://hotel-reviews-analysis.shaily.dev) ·
-  [source](https://github.com/SHAILY24/hotel-reviews-analysis)). Review NLP and
-  segmentation over ~515K reviews: VADER sentiment, TF-IDF, K-Means, a
-  business-insight dashboard.
-- **Data Migration Quality Framework**
-  ([dmqf.shaily.dev](https://dmqf.shaily.dev) ·
-  [source](https://github.com/SHAILY24/dmqf)). Flask + PyCaret: statistical
-  profiling plus Isolation-Forest anomaly detection with AutoML model selection.
-- **DeepL Translation Tool**
-  ([translate.shaily.dev](https://translate.shaily.dev) ·
-  [source](https://github.com/SHAILY24/deepl-translation-poc)). FastAPI + React
-  integration POC over the DeepL API.
-- **Eye Tracker** ([eyetracker.shaily.dev](https://eyetracker.shaily.dev) ·
-  [source](https://github.com/SHAILY24/eye-tracker-demo)). Browser-based,
-  client-side gaze tracking (WebGazer.js) with a 9-point calibration flow.
-  No data leaves the device.
+### Selected work
 
-There are 17 projects in total, including open-source tooling
-([user-port-finder](https://github.com/SHAILY24/user-port-finder), a
-pip-installable MIT port-allocation library). The full set, with
-problem / approach / tradeoff notes, is at
-[portfolio.shaily.dev](https://portfolio.shaily.dev).
+| Project | What it does | Live | Code |
+|---|---|---|---|
+| credit-risk-system | scikit-learn risk model behind a JWT API, Dockerized | [crs.shaily.dev](https://crs.shaily.dev) | [repo](https://github.com/SHAILY24/credit-risk-system) |
+| shelf-bookstore | React + FastAPI store, real Stripe checkout | [shelf.shaily.dev](https://shelf.shaily.dev) | [repo](https://github.com/SHAILY24/shelf-bookstore) |
+| news-sentiment-intelligence | RSS ingest, multi-model sentiment, forecasting | [news.shaily.dev](https://news.shaily.dev) | [repo](https://github.com/SHAILY24/news-sentiment-intelligence) |
+| interactive-banking-analytics | natural-language query, SHAP-explained ensemble | [ibad.shaily.dev](https://ibad.shaily.dev) | [repo](https://github.com/SHAILY24/interactive-banking-analytics-dashboard) |
+| hotel-reviews-analysis | NLP and segmentation on ~515,738 reviews | [hotel-reviews-analysis.shaily.dev](https://hotel-reviews-analysis.shaily.dev) | [repo](https://github.com/SHAILY24/hotel-reviews-analysis) |
+| dmqf | data-migration quality gate, anomaly detection | [dmqf.shaily.dev](https://dmqf.shaily.dev) | [repo](https://github.com/SHAILY24/dmqf) |
+| deepl-translation-poc | bring-your-own-key DeepL service | [translate.shaily.dev](https://translate.shaily.dev) | [repo](https://github.com/SHAILY24/deepl-translation-poc) |
+| virtual-card-auth-demo | card-authorization pipeline, synthetic data | [cardauth.shaily.dev/docs](https://cardauth.shaily.dev/docs) | [repo](https://github.com/SHAILY24/virtual-card-auth-demo) |
 
-## Stack
+Full set, with a command palette and a few things worth finding: [portfolio.shaily.dev](https://portfolio.shaily.dev)
 
-Python, FastAPI, Flask, React, TypeScript, PostgreSQL, Redis, Docker,
-Playwright, Selenium, BeautifulSoup, scikit-learn, pandas.
+<details>
+<summary><code>visitor@shaily.dev:~$ whoami</code></summary>
 
-## Certifications
+Python data engineer. Top Rated on Upwork. I get scrapers through Cloudflare, Incapsula, CAPTCHA walls and rate limits, then clean and fuzzy-match the data, automate it on a schedule, and load it where you need it. Day to day: Python, FastAPI, Flask, React, PostgreSQL, Redis, Playwright, Selenium, RapidFuzz, Docker, scikit-learn.
 
-- AWS Certified Data Engineer, Associate
-  ([verify](https://www.credly.com/badges/2c7079a2-f843-43aa-b3c1-08b41636d90a/linked_in_profile))
-- AWS Certified Cloud Practitioner
-  ([verify](https://www.credly.com/badges/43c3820e-2835-48a7-b7b4-61e8fa09ba79/linked_in_profile))
+I scope tightly, say upfront when a site is not worth scraping, and send a small sample before you commit.
+
+</details>
+
+<details>
+<summary><code>visitor@shaily.dev:~$ cat ~/.uses</code></summary>
+
+- Editor: nano for quick edits, Cursor for long sessions.
+- Shell: zsh, tmux, ripgrep, fzf, jq. Most of the day is a terminal.
+- AI: used as supervised boilerplate, reviewed line by line, never left to steer architecture.
+- Infra: Docker, Nginx, a self-hosted box behind a port allocator I wrote.
+
+</details>
+
+<details>
+<summary><code>visitor@shaily.dev:~$ creds --verify</code></summary>
+
+- AWS Certified Data Engineer, Associate: [verify on Credly](https://www.credly.com/badges/2c7079a2-f843-43aa-b3c1-08b41636d90a/linked_in_profile)
+- AWS Certified Cloud Practitioner: [verify on Credly](https://www.credly.com/badges/43c3820e-2835-48a7-b7b4-61e8fa09ba79/linked_in_profile)
 - Microsoft Azure Fundamentals (AZ-900)
 - ITIL v3 Foundation
 
-## Education
+</details>
 
-| Degree | Institution | Years |
-|---|---|---|
-| MS, Data Science | New Jersey Institute of Technology (NJIT) | 2024 to 2025 |
-| MBA, Business Analytics & Finance | Symbiosis International University, Pune | 2020 to 2022 |
-| B.Tech, Information Technology | Maharaja Agrasen Institute of Technology (MAIT), Delhi | 2015 to 2018 |
+<details>
+<summary><code>visitor@shaily.dev:~$ contact</code></summary>
 
-## Contact
-
-- Email: [shailysharmawork@gmail.com](mailto:shailysharmawork@gmail.com)
+- Email: shailysharmawork@gmail.com
 - LinkedIn: [linkedin.com/in/shailysharma873](https://linkedin.com/in/shailysharma873)
-- Jersey City, NJ
+- GitHub: [github.com/SHAILY24](https://github.com/SHAILY24)
+- Jersey City, NJ. Top Rated on Upwork.
 
-[portfolio.shaily.dev](https://portfolio.shaily.dev): try Cmd-K, and the Konami code.
+</details>
+
+<details>
+<summary><code>visitor@shaily.dev:~$ sudo flaunt</code></summary>
+
+Permission granted, just this once.
+
+This profile is one hand-authored SVG banner, theme-aware through `picture`, with a CSS-keyframe aurora that idles slowly and does not flash. No third-party stat, streak, or trophy widgets: they read as templated and they age badly. The interaction here is plain `details`, the only honest interactivity a GitHub README allows.
+
+The portfolio at [portfolio.shaily.dev](https://portfolio.shaily.dev) goes further: a command palette on the slash key, and the old code still works if you remember it.
+
+</details>

@@ -1,0 +1,71 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" role="img"
+     aria-label="Shaily Sharma, Python Data Engineer">
+  <title>Shaily Sharma: an aurora over a quiet terminal. You hovered. People who poke at things tend to hire well.</title>
+  <desc>Animated Northern lights drifting over a dark terminal sky, with name and role. Motion pauses if you prefer reduced motion.</desc>
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#0a0e17"/>
+      <stop offset="1" stop-color="#10151f"/>
+    </linearGradient>
+    <linearGradient id="au1" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#5fd3c4" stop-opacity="0"/>
+      <stop offset=".45" stop-color="#5fd3c4" stop-opacity=".85"/>
+      <stop offset=".7" stop-color="#7bdcb5" stop-opacity=".7"/>
+      <stop offset="1" stop-color="#6db3f2" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="au2" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#6db3f2" stop-opacity="0"/>
+      <stop offset=".5" stop-color="#7bdcb5" stop-opacity=".6"/>
+      <stop offset=".8" stop-color="#e9a6c9" stop-opacity=".45"/>
+      <stop offset="1" stop-color="#e9a6c9" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft" x="-30%" y="-60%" width="160%" height="240%">
+      <feGaussianBlur stdDeviation="22"/>
+    </filter>
+    <style>
+      .name{font:700 64px ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+            fill:#f4f1ea;letter-spacing:6px}
+      .role{font:400 25px ui-monospace,Menlo,Consolas,monospace;fill:#cdd6e4}
+      .flow{font:400 18px ui-monospace,Menlo,Consolas,monospace;fill:#7bdcb5;letter-spacing:1px}
+      .tag{font:400 15px ui-monospace,Menlo,Consolas,monospace;fill:#8b97a8;letter-spacing:2px}
+      .cur{fill:#5fd3c4}
+      @media (prefers-reduced-motion:no-preference){
+        .a1{animation:d1 14s ease-in-out infinite alternate}
+        .a2{animation:d2 19s ease-in-out infinite alternate}
+        .cur{animation:bl 1.1s steps(1) infinite}
+      }
+      @keyframes d1{from{transform:translateX(-40px) skewY(-2deg)}
+                    to{transform:translateX(50px) skewY(2deg)}}
+      @keyframes d2{from{transform:translateX(40px) skewY(2deg)}
+                    to{transform:translateX(-50px) skewY(-1.5deg)}}
+      @keyframes bl{50%{opacity:0}}
+    </style>
+  </defs>
+
+  <rect width="1280" height="320" fill="url(#sky)"/>
+  <!-- faint starfield -->
+  <g fill="#cdd6e4" opacity=".5">
+    <circle cx="120" cy="48" r="1"/><circle cx="300" cy="30" r="1.3"/>
+    <circle cx="540" cy="56" r="1"/><circle cx="800" cy="36" r="1.2"/>
+    <circle cx="980" cy="60" r="1"/><circle cx="1150" cy="42" r="1.3"/>
+    <circle cx="1220" cy="80" r="1"/><circle cx="60" cy="96" r="1"/>
+  </g>
+  <!-- aurora ribbons -->
+  <g filter="url(#soft)">
+    <path class="a1" d="M-80,150 C 260,70 520,210 820,120 C 1020,60 1180,150 1360,110
+                         L1360,210 C 1180,250 1020,170 820,220
+                         C 520,300 260,180 -80,250 Z" fill="url(#au1)"/>
+    <path class="a2" d="M-80,205 C 300,150 600,265 900,185 C 1080,140 1240,210 1360,175
+                         L1360,250 C 1240,285 1080,235 900,265
+                         C 600,330 300,255 -80,285 Z" fill="url(#au2)"/>
+  </g>
+  <!-- horizon line -->
+  <rect x="0" y="300" width="1280" height="1" fill="#2a3342"/>
+
+  <!-- identity -->
+  <text class="name" x="84" y="150">SHAILY SHARMA</text>
+  <text class="role" x="88" y="190">Python Data Engineer</text>
+  <text class="flow" x="88" y="228">anti-bot scraping  ::  clean  ::  fuzzy-match  ::  automate  ::  ship</text>
+  <text class="tag"  x="88" y="270">TOP RATED ON UPWORK      JERSEY CITY, NJ      PYTHON / FASTAPI / REACT / ETL</text>
+  <text class="role" x="1196" y="150" text-anchor="end">&#x2590;<tspan class="cur">&#x2590;</tspan></text>
+</svg>
