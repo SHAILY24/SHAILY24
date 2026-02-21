@@ -1,65 +1,61 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 320" role="img"
-     aria-label="Shaily Sharma, Python Data Engineer">
-  <title>Shaily Sharma: an aurora over a quiet terminal. You hovered. People who poke at things tend to hire well.</title>
-  <desc>Northern lights drifting over a warm paper sky, with name and role.</desc>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 300" role="img"
+     aria-label="Shaily Sharma, Python data engineer. Anti-bot scraping into clean, matched, automated data.">
+  <title>Shaily Sharma. Python data engineer.</title>
+  <desc>Name and role over a warm paper panel with a slow aurora and a steady cursor. Motion is gentle by design.</desc>
   <defs>
     <linearGradient id="paper" x1="0" y1="0" x2="0" y2="1">
       <stop offset="0" stop-color="#f7f2e8"/>
-      <stop offset="1" stop-color="#efe7d6"/>
+      <stop offset="1" stop-color="#efe6d4"/>
     </linearGradient>
     <linearGradient id="la1" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#1f9e8d" stop-opacity="0"/>
-      <stop offset=".45" stop-color="#1f9e8d" stop-opacity=".55"/>
-      <stop offset=".7" stop-color="#2f9e6b" stop-opacity=".45"/>
+      <stop offset=".42" stop-color="#1f9e8d" stop-opacity=".48"/>
+      <stop offset=".68" stop-color="#2f9e6b" stop-opacity=".38"/>
       <stop offset="1" stop-color="#3a7fc4" stop-opacity="0"/>
     </linearGradient>
     <linearGradient id="la2" x1="0" y1="0" x2="1" y2="0">
       <stop offset="0" stop-color="#3a7fc4" stop-opacity="0"/>
-      <stop offset=".5" stop-color="#2f9e6b" stop-opacity=".4"/>
-      <stop offset=".8" stop-color="#c9558f" stop-opacity=".3"/>
+      <stop offset=".5" stop-color="#2f9e6b" stop-opacity=".32"/>
+      <stop offset=".8" stop-color="#c9558f" stop-opacity=".25"/>
       <stop offset="1" stop-color="#c9558f" stop-opacity="0"/>
     </linearGradient>
     <filter id="soft" x="-30%" y="-60%" width="160%" height="240%">
-      <feGaussianBlur stdDeviation="20"/>
+      <feGaussianBlur stdDeviation="22"/>
     </filter>
     <style>
-      .name{font:700 64px ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
-            fill:#1d2530;letter-spacing:6px}
-      .role{font:400 25px ui-monospace,Menlo,Consolas,monospace;fill:#3c4858}
-      .flow{font:400 18px ui-monospace,Menlo,Consolas,monospace;fill:#157a6b;letter-spacing:1px}
-      .tag{font:400 15px ui-monospace,Menlo,Consolas,monospace;fill:#6b7686;letter-spacing:2px}
-      .cur{fill:#157a6b}
-      @media (prefers-reduced-motion:no-preference){
-        .a1{animation:d1 16s ease-in-out infinite alternate}
-        .a2{animation:d2 21s ease-in-out infinite alternate}
-        .cur{animation:bl 1.2s steps(1) infinite}
-      }
-      @keyframes d1{from{transform:translateX(-36px) skewY(-1.5deg)}
-                    to{transform:translateX(46px) skewY(1.5deg)}}
-      @keyframes d2{from{transform:translateX(36px) skewY(1.5deg)}
-                    to{transform:translateX(-46px) skewY(-1deg)}}
+      .name{font:700 60px ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;
+            fill:#1d2530;letter-spacing:5px}
+      .role{font:400 24px ui-monospace,Menlo,Consolas,monospace;fill:#3c4858}
+      .flow{font:400 17px ui-monospace,Menlo,Consolas,monospace;fill:#157a6b;letter-spacing:1px}
+      .tag {font:400 14px ui-monospace,Menlo,Consolas,monospace;fill:#6b7686;letter-spacing:2px}
+      .dim {fill:#b6ab92}
+      .cur {fill:#157a6b;animation:bl 1.2s steps(1) infinite}
+      .a1{animation:d1 18s ease-in-out infinite alternate}
+      .a2{animation:d2 24s ease-in-out infinite alternate}
+      @keyframes d1{from{transform:translateX(-28px)}to{transform:translateX(32px)}}
+      @keyframes d2{from{transform:translateX(26px)}to{transform:translateX(-30px)}}
       @keyframes bl{50%{opacity:0}}
     </style>
   </defs>
 
-  <rect width="1280" height="320" fill="url(#paper)"/>
-  <g fill="#8a8472" opacity=".35">
-    <circle cx="300" cy="30" r="1.3"/><circle cx="800" cy="36" r="1.2"/>
-    <circle cx="1150" cy="42" r="1.3"/><circle cx="60" cy="96" r="1"/>
+  <rect width="1280" height="300" fill="url(#paper)"/>
+  <g fill="#8a8472" opacity=".3">
+    <circle cx="320" cy="28" r="1.2"/><circle cx="820" cy="34" r="1.1"/>
+    <circle cx="1160" cy="40" r="1.2"/><circle cx="140" cy="44" r="1"/>
   </g>
   <g filter="url(#soft)">
-    <path class="a1" d="M-80,150 C 260,70 520,210 820,120 C 1020,60 1180,150 1360,110
-                         L1360,210 C 1180,250 1020,170 820,220
-                         C 520,300 260,180 -80,250 Z" fill="url(#la1)"/>
-    <path class="a2" d="M-80,205 C 300,150 600,265 900,185 C 1080,140 1240,210 1360,175
-                         L1360,250 C 1240,285 1080,235 900,265
-                         C 600,330 300,255 -80,285 Z" fill="url(#la2)"/>
+    <path class="a1" d="M-80,140 C 260,66 520,196 820,112 C 1020,58 1180,140 1360,104
+                         L1360,196 C 1180,234 1020,160 820,206
+                         C 520,282 260,168 -80,234 Z" fill="url(#la1)"/>
+    <path class="a2" d="M-80,192 C 300,142 600,248 900,174 C 1080,132 1240,196 1360,164
+                         L1360,234 C 1240,266 1080,220 900,248
+                         C 600,308 300,238 -80,266 Z" fill="url(#la2)"/>
   </g>
-  <rect x="0" y="300" width="1280" height="1" fill="#d8cfba"/>
+  <rect x="0" y="282" width="1280" height="1" fill="#d8cfba"/>
 
-  <text class="name" x="84" y="150">SHAILY SHARMA</text>
-  <text class="role" x="88" y="190">Python Data Engineer</text>
-  <text class="flow" x="88" y="228">anti-bot scraping  ::  clean  ::  fuzzy-match  ::  automate  ::  ship</text>
-  <text class="tag"  x="88" y="270">TOP RATED ON UPWORK      JERSEY CITY, NJ      PYTHON / FASTAPI / REACT / ETL</text>
-  <text class="role" x="1196" y="150" text-anchor="end">&#x2590;<tspan class="cur">&#x2590;</tspan></text>
+  <text class="tag" x="84" y="62"><tspan class="dim">~/shaily</tspan>  on  main</text>
+  <text class="name" x="82" y="142">SHAILY SHARMA</text>
+  <text class="role" x="86" y="180">Python data engineer<tspan class="cur"> &#x2588;</tspan></text>
+  <text class="flow" x="86" y="216">scrape past the block  ::  clean  ::  fuzzy-match  ::  automate  ::  ship</text>
+  <text class="tag"  x="86" y="252">TOP RATED ON UPWORK   /   JERSEY CITY, NJ   /   PYTHON  FASTAPI  REACT  ETL</text>
 </svg>

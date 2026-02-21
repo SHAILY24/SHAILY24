@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 132" role="img"
+     aria-label="Working notes: open to data engineering and scraping contracts, building public demos, runs the demos on a self-hosted box.">
+  <title>What I am working on now.</title>
+  <desc>Three short status lines on a dark terminal panel.</desc>
+  <defs>
+    <style>
+      .p {font:400 16px ui-monospace,"SFMono-Regular",Menlo,Consolas,monospace;fill:#8893a5}
+      .t {font:400 16px ui-monospace,Menlo,Consolas,monospace;fill:#d7dde8}
+      .k {font:400 16px ui-monospace,Menlo,Consolas,monospace;fill:#74d6af}
+      .cur{fill:#58cdbe;animation:bl 1.15s steps(1) infinite}
+      @keyframes bl{50%{opacity:0}}
+    </style>
+  </defs>
+  <rect width="1280" height="132" rx="6" fill="#0d121b"/>
+  <rect x="0" y="0" width="1280" height="1" fill="#27303f"/>
+  <text class="p" x="28" y="40"><tspan class="k">now</tspan> $ <tspan class="t">status</tspan></text>
+  <text class="p" x="28" y="70">  open to data engineering and scraping contracts <tspan class="t">(remote, US hours)</tspan></text>
+  <text class="p" x="28" y="96">  building and maintaining the public demos linked below</text>
+  <text class="p" x="28" y="122">  everything below runs on a small self-hosted box, behind nginx<tspan class="cur"> &#x2588;</tspan></text>
+</svg>
